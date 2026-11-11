@@ -1,0 +1,31 @@
+{
+  "id": "simple-fishing",
+  "title": "Simple Fishing",
+  "description": "Clickable fishing actor tokens, optional bait, a timing game, and drag-and-drop reward lists for D&D 5e.",
+  "version": "1.4.0",
+  "authors": [
+    {
+      "name": "Bo Anderson"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/fishing.css"
+  ],
+  "socket": false,
+  "license": "LICENSE"
+}
